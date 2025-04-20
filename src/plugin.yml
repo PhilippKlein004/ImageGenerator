@@ -1,0 +1,25 @@
+main: de.philippklein.ImageGenerator
+name: ImageGenerator
+version: 1.0
+author: PhilippKlein004 @ GitHub
+description: Plugin for generating images from the web.
+
+commands:
+  imagegenerator:
+    description: General Information about the plugin.
+  generateimage:
+    description: Generate an image from the web.
+  clearimage:
+    description: Clears the previously drawn image.
+
+
+permissions:
+  philippklein.imagegenerator:
+    description: Player can get general info's.
+    default: op
+  philippklein.generateimage:
+    description: Player can generate images.
+    default: op
+  philippklein.clearimage:
+    description: Player can clear the previously drawn image.
+    default: op
