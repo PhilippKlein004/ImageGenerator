@@ -12,7 +12,7 @@ public class ImageBlock {
 
     private Material material;
     private byte data;
-    int red, green, blue;
+    private int red, green, blue;
 
     public ImageBlock( Material material, byte data, int red, int green, int blue ) {
         this.material = material;
